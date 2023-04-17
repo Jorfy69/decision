@@ -11,8 +11,10 @@ def options(rand_highest_value):
         print(f'This choice wins: {choices[2]}')
     elif RAND ==4:
         print(f'This choice wins: {choices[3]}')
-    else:
+    elif RAND == 5:
         print(f'This choice wins: {choices[4]}') 
+    else:
+        print('To many or not enough chocies') 
     
 
 def main():
